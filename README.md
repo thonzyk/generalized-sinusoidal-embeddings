@@ -7,4 +7,5 @@ Generalized sinusoidal positional embeddings for arbitrary N-D data. Extends the
 <img width="640" height="480" alt="3d_tsne" src="https://github.com/user-attachments/assets/d194c44b-165d-4685-9c10-d0e85ac98bd9" />
 
 ## Higher Robustness than Original
-<img width="1200" height="500" alt="noise_resilience" src="https://github.com/user-attachments/assets/b3b77bdd-9d8f-4abf-b4ef-7d100e1ecf0d" />
+<img width="1008" height="533" alt="noise_resilience" src="https://github.com/user-attachments/assets/409769d1-9a28-4815-8000-abb63cbd69da" />
+
