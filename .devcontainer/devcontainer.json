@@ -1,0 +1,16 @@
+{
+  "name": "python-3.11-slim",
+  "image": "python:3.11-slim",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "postCreateCommand": "apt update && apt install -y git && pip install numpy matplotlib scikit-learn ipykernel",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
