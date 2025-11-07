@@ -6,6 +6,7 @@ Generalized sinusoidal positional embeddings for arbitrary N-D data. Extends the
 <img width="640" height="480" alt="2d_tsne" src="https://github.com/user-attachments/assets/abc7e5cb-692c-45d8-a503-0089c03df37c" />
 <img width="640" height="480" alt="3d_tsne" src="https://github.com/user-attachments/assets/d194c44b-165d-4685-9c10-d0e85ac98bd9" />
 
-## Higher Robustness than Original
+## More Robust than Original
+By automatically optimizing frequency band allocation, we achieve significantly more robust positional encodings, as demonstrated by t-SNE visualizations of noise-perturbed embeddings.
 <img width="1008" height="533" alt="noise_resilience" src="https://github.com/user-attachments/assets/409769d1-9a28-4815-8000-abb63cbd69da" />
 
