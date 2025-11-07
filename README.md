@@ -1,5 +1,5 @@
 # Generalized Sinusoidal Embeddings
-Generalized sinusoidal positional embeddings for arbitrary N-D data. Extends the Transformer’s fixed sin/cos encoding to 2D, 3D, and beyond (images, video, volumes). Automatically allocates frequency bands across dimensions and adapts the frequency schedule to the number of embedding channels. Lightweight, framework-agnostic implementation.
+We introduce generalized sinusoidal positional embeddings for arbitrary N-dimensional data with automatic optimization of frequency band allocation. This approach extends the original formulation from “Attention Is All You Need” (Vaswani et al., 2017) to 2D, 3D, and higher dimensions, making it applicable to images, videos, volumetric data, and even higher-dimensional modalities. The method jointly allocates frequency bands across dimensions and adapts the frequency schedule to the embedding size and maximal sequence length.
 
 ## Examples for 1D, 2D, 3D Positional Embeddings
 <img width="640" height="480" alt="1d_tsne" src="https://github.com/user-attachments/assets/66a6915e-4623-42ab-a2b8-0352bf11cadd" />
